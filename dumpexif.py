@@ -10,8 +10,6 @@ import sys
 import PIL.Image
 import PIL.ExifTags
 
-import pprint   # for debugging
-
 # 検索対象は第一引数、省略時はカレントディレクトリ
 ROOT = sys.argv[1] if len(sys.argv) > 1 else '.'
 
